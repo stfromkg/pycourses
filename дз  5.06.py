@@ -1,0 +1,11 @@
+m = [68, 55, 23, 71, 6, 9, 1, 15]
+b = sum(m)
+print(sum(m))
+print(min(m), max(m))
+m.pop(6)
+print(m)
+print(min(m))
+m.sort()
+print(m)
+m.reverse()
+print(m)
