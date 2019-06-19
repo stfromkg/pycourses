@@ -1,0 +1,6 @@
+f = open('C:/Users/Tokyo/Desktop/2strings.txt','r',encoding='utf-8')
+a = f.read()
+b = a.split()
+print(b)
+print(int(b[0])+int(b[1]))
+f.close()
